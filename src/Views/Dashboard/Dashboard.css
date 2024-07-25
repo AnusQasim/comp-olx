@@ -1,0 +1,28 @@
+#card-s{
+  box-shadow: 0px 4px 6px 0px;
+    width: 310px;
+    height: 380px;
+}
+
+.cardDiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+a{
+ color: black;
+}
+
+#card-parent{
+  margin-top: 40px;
+}
+
+
+@media (max-width: 1000px) {
+  .logo{
+      margin-top: 15px;
+  }
+}
+

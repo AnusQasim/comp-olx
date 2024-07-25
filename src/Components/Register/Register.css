@@ -1,0 +1,60 @@
+.containner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-top: 100px;
+  margin-left: 30%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inner-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bnt {
+  background-color: #0016df;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.bnt:hover {
+  background-color: gray;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+span {
+  color: #3498db;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline;
+}
